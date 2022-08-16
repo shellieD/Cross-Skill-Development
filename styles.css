@@ -14,6 +14,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #fafafae7;
 }
 
 nav {
@@ -64,6 +65,14 @@ main {
     height: 2000px;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#about, #registration {
+    margin-bottom:30px;
+}
 #hero-image-container {
 	height: auto;
 	width: 100%;
@@ -74,7 +83,7 @@ main {
 #hero-image {
     height: 50vh;
     width: auto;
-    background: url('../assets/images/computer.jpg') no-repeat center center/contain;
+    background: url('../assets/images/computer.jpg') no-repeat center center/cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +103,7 @@ h2 {
     text-align: center;
 }
 
-#about p, #register p, #contact p {
+#about p, #register p {
     padding: 18px;
     margin-top: 15px;
     text-align: center;
@@ -142,3 +151,50 @@ input[type=radio], input[type=checkbox] {
     display: inline;
 }
 
+#contact {
+    height: 50vh;
+    background-image: linear-gradient(to bottom, #032958, #10437f, #1a5ea8, #1e7cd3, #1b9bff);
+    text-align: center;
+    color: white;
+}
+
+#contact h2, #contact p {
+    padding: 15px;
+}
+
+.contact-info {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+address {
+    text-align: center;
+}
+
+.social-networks {
+	text-align: center;
+}
+
+.social-networks li {
+	display: inline;
+}
+
+.social-networks i {
+	font-size: 200%;
+	padding: 20px;
+	color: white;
+}
+
+#telephone, #email {
+    margin: 0 auto 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color:#1b9bff;
+    color: #fff;
+    padding: 15px;
+}
