@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 90px; /* height of fixed header */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 999;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.links:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+main {
+    margin-top: 80px;
+    height: 2000px;
+}
+
+#hero-image-container {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto 15px auto;
+}
+
+#hero-image {
+    height: 50vh;
+    width: auto;
+    background: url('../assets/images/computer.jpg') no-repeat center center/contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+main {
+    top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#about p, #register p, #contact p {
+    padding: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.home-link {
+    text-align: center;
+    display: block;
+    font-size: small;
+}
+
+form {
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 10px 0;
+}
+  
+.input-field {
+    display: block;
+    margin: auto;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: revert;
+    min-height: revert;
+    display: inline;
+}
+
+.radio-label, .checkbox-label {
+    display: inline;
+}
+

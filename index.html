@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <nav>
+            <label class="logo">TechAcademy</label>
+            <ul >
+                <li><a class="links" href="#about">About</a></li>
+                <li><a class="links" href="#register">Registration</a>
+                <li><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <div>
+            <h2>UI Cross Skilling Course</h2> 
+        </div>
+        <section id="hero-image-container">
+            <div id="hero-image">
+            </div>       
+        </section>
+    <section id="about">
+        <!--About-->
+        <h2>About</h2>
+        <p>In an endeavour to help NatWest bank become a leading learning organization, 
+           Technology Academy is happy to announce the launch of the Cross-skilling on UI Development course. 
+           This course will encourage a poly-skilled workforce that's future-ready, and will mitigate the dearth
+           of UI developers across the bank. This will be an MVP launched as Test and Learn.
+        </p>
+        <p>The course will provide colleagues a comprehensive learning journey with self-paced sessions, 
+            instructor-led sessions with SMEs, hands-on exercises, and assessments as toll gates for moving on to 
+            the next level. It will cover core front end skills including HTML, CSS, Javascript and ReactJS.
+        </p> 
+        <p>Participants’ calendar will be blocked for one hour daily to provide a window for learning. 
+            The learning journey is comprehensive and is expected over 5-6 months including learning, 
+            sessions, assessments and project work.
+        </p>    
+        <p>
+            To be eligible for this course, you must work at NatWest and be nominated by a team leader. 
+            Places limited to 20 participants. Please share nominations with David Rahman or Rashmi Manshani 
+            from Technology Academy.
+        </p>
+        <br>
+        <a href="#home" class="home-link">Back to top</a>
+        <br>
+    </section>
+    <section id="register">
+        <!--Registration-->
+        <h2>Register for a Course</h2>
+        <form class="registration-form" action="">
+            <label for="name">Name:</label>
+            <input class="input-field" id="name" type="text" name="name"required>
+            <label for="email">Email:</label>
+            <input class="input-field" id="email" type="email" name="email"required>
+            <label for="dob">Date of Birth:</label>
+            <input class="input-field" id="dob" type="date" name="dob" required>
+            <label for="current-role">Current Role:</label>
+            <select class="input-field" name="workshop" id="workshop" required>
+                <option value="select" selected >--select--</option>
+                <option value="student">Student</option>
+                <option value="full-time">Full-time Employment</option>
+                <option value="part-time">Part-Time Employment</option>
+                <option value="other">Other</option>
+            </select>
+            <p>Would you recommend this course to a friend?</p>
+            <input type="radio" name="recommend" value="definitely" checked>
+            <label class="radio-label" for="definitely">Definitely</label>
+            <br>
+            <input type="radio" name="recommend" value="maybe">
+            <label class="radio-label" for="maybe">Maybe</label>
+            <br>
+            <input type="radio" name="recommend" value="not-sure">
+            <label class="radio-label" for="not-sure">Not sure</label>  
+            <br> 
+            <label class="comments-label" for="message">Comments or Suggestions:</label>
+            <textarea class="input-field" name="message" id="message" cols="30" rows="10" placeholder="Type your message here..." maxlength="500"></textarea>
+            <input type="checkbox" name="t&cs" value="t&cs" required>
+            <label class="checkbox-label" for="t&cs">I have read the terms and conditions</label>
+            <input type="submit" value="Submit">
+        </form>
+        <a href="#home" class="home-link">Back to top</a>
+    </section>
+    <section id="contact">
+        <!--Contact-->
+        <h2>Contact Us</h2>
+        <a href="#home" class="home-link">Back to top</a>
+    </section>
+    </main>
+    <footer>
+        &copy 2022 Cross-Skill Development
+    </footer>
+</body>
+</html>
