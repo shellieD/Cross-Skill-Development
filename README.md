@@ -2,6 +2,8 @@
 
 ![Am I Responsive Screenshots](assets/images/responsive.png)
 
+[Link to live site](https://shellied.github.io/Cross-Skill-Development/)
+
 ## Introduction
 
 This static website was built as part of the UI Cross-Skilling Course for Natwest Employees.  The objective and user stories for the project are set out below. 
