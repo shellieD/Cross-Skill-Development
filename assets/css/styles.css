@@ -115,6 +115,24 @@ nav ul li a {
     }
 }
 
+@media (max-width: 458px) {
+    label.logo {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    label.logo {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+}
+
 main {
     margin-top: 80px;
     height: 2000px;
