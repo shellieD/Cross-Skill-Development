@@ -1,5 +1,7 @@
 # Tech Academy - Cross-Skilling UI Development Course
 
+![Am I Responsive Screenshots](assets/images/responsive.png)
+
 ## Introduction
 
 This static website was built as part of the UI Cross-Skilling Course for Natwest Employees.  The objective and user stories for the project are set out below. 
@@ -47,8 +49,8 @@ Note: There is no any restriction in design. You can add your own styles like co
 
 ### Credits
 
-* [Pixabay] for the image used on the landing page.
+* [Pixabay](https://pixabay.com/) for the image used on the landing page.
 * [Googlefonts](https://fonts.google.com/) for the Montserrat and Montserrat Subrayada fonts used in the body and page logo.
 * Inspiration from CodeNepal on Youtube for the responsive navbar using only HTML and CSS.
 * [Favicon](Favicon.io )
-* [FontAwesome](https://fontawesome.com/) for icons.x
+* [FontAwesome](https://fontawesome.com/) for icons.
